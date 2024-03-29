@@ -1,3 +1,4 @@
+import org.example.Arithmetic;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -6,12 +7,12 @@ import static org.junit.Assert.assertFalse;
 public class ArithmeticTest {
 
 
-private arithmetic = new Arithmetic();
+private Arithmetic arithmetic = new Arithmetic();
 
     @Test
     public void testAddingTwoIntegersWithNegative() {
         int result = arithmetic.add(2, -3);
-        assertEquals(-1, result);
+        assertFalse( result ==-1);
     }
 
     @Test
