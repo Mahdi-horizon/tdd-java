@@ -10,6 +10,6 @@ public class Arithmetic {
         return a + b;
     }
     public int add(String a, String b) {
-        return 0;
+      return Integer.MIN_VALUE;
     }
 }

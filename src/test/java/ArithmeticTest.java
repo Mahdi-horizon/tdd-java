@@ -23,7 +23,7 @@ private Arithmetic arithmetic = new Arithmetic();
     @Test
     public void testAddingTwoNonIntegerInputs() {
         int result = arithmetic.add("2", "3");
-        assertFalse( result == 5);
+        assertFalse( result !=Integer.MIN_VALUE);
 
     }
 
